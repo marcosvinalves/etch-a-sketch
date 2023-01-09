@@ -1,0 +1,143 @@
+/* //////////////// */
+/* HEADING SECTION */
+/* //////////////// */
+
+.heading-primary {
+  padding: 2.4rem 4.8rem;
+  font-weight: 700;
+  font-size: 5.2rem;
+  letter-spacing: 1.2rem;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 4.8rem;
+  text-shadow: 5px 7px #000;
+}
+
+.main {
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+/* //////////////// */
+/* COLOR PICKER SECTION */
+/* //////////////// */
+
+.color-pickers-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-color-picker {
+  border: none;
+  background: none;
+  width: 6.4rem;
+  height: 6.4rem;
+  margin-bottom: auto;
+  cursor: pointer;
+}
+
+.main-color-picker:hover {
+  transform: translateY(-0.5rem);
+}
+
+.main-color-picker::-webkit-color-swatch,
+.main-color-picker::-webkit-color-swatch-wrapper {
+  border: none;
+  border-radius: 5px;
+  padding: 0;
+  box-shadow: 5px 7px #000;
+}
+
+/* //////////////// */
+/* GAME BOX SECTION */
+/* //////////////// */
+
+.game-box-section {
+  background-color: #fff;
+  padding: 0;
+  border-radius: 5px;
+  display: grid;
+  overflow: hidden;
+  border: 2px solid #fff;
+}
+
+.set-gridSmall {
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+}
+
+.set-gridMedium {
+  grid-template-columns: repeat(32, 1fr);
+  grid-template-rows: repeat(32, 1fr);
+}
+
+.set-gridLarge {
+  grid-template-columns: repeat(64, 1fr);
+  grid-template-rows: repeat(64, 1fr);
+}
+
+.toggle-grid {
+  border-left: 1px solid rgb(212, 212, 212);
+  border-bottom: 1px solid rgb(212, 212, 212);
+}
+
+/* //////////////// */
+/* GAME SETTINGS SECTION */
+/* //////////////// */
+
+.game-config-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* //////////////// */
+/* TOGGLE LINE SECTION */
+/* //////////////// */
+
+.toggle-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2.4rem;
+  color: #fff;
+}
+
+.toggle-section-title {
+  font-size: 2.4rem;
+  text-align: center;
+  background: none;
+  border: none;
+  font-family: inherit;
+  color: #fff;
+  border-bottom: 1px solid transparent;
+}
+
+.toggle-section-title:hover {
+  border-bottom: 1px solid #fff;
+}
+
+/* //////////////// */
+/* FOOTER SECTION */
+/* //////////////// */
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.6rem;
+  font-size: 2.4rem;
+  color: #fff;
+  border-bottom: 1px solid transparent;
+}
+
+.copyright-link:link,
+.copyright-link:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+.copyright-link:hover,
+.copyright-link:active {
+  border-bottom: 1px solid #fff;
+}
