@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="general.css" />
+    <script defer src="script.js"></script>
+    <title>Etch-A-Sketch</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="heading-primary">Etch-A-Sketch</h1>
+    </header>
+
+    <main class="main container grid">
+      <section class="color-pickers-section section-box">
+        <p class="color-picker-title section-title">
+          Color<br />
+          Pickers
+        </p>
+        <input
+          class="main-color-picker"
+          id="colorPicker"
+          type="color"
+          value="#333333"
+        />
+        <ul class="color-pickers-list list">
+          <li><button class="btn black-color">Black</button></li>
+          <li><button class="btn grey-color">Grey</button></li>
+          <li><button class="btn white-color">White</button></li>
+        </ul>
+      </section>
+      <section class="game-box-section"></section>
+      <section class="game-config-section section-box">
+        <p class="game-config-title section-title">Game<br />Settings</p>
+        <ul class="game-config-list list">
+          <li><button class="btn reset">Reset</button></li>
+          <li><button class="btn small-grid">16 x 16</button></li>
+          <li><button class="btn medium-grid">32 x 32</button></li>
+          <li><button class="btn large-grid">64 x 64</button></li>
+        </ul>
+      </section>
+    </main>
+    <section class="toggle-section">
+      <button class="toggle-section-title">Toggle grid lines: ON/OFF</button>
+    </section>
+    <footer class="footer">
+      <p class="copyright">
+        Copyright © -
+        <a class="copyright-link" href="https://github.com/marcosvinalves"
+          >MarcosVinAlves
+      </p>
+    </footer>
+  </body>
+</html>
